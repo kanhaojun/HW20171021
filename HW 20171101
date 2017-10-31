@@ -1,0 +1,37 @@
+20171101
+public class Second {
+    public static void main (String[] argv){
+        int a=253;
+        int b=134;
+        System.out.println("a ="+a);
+        System.out.println("b ="+b);
+        System.out.println((a>b & a<b));   //和
+        System.out.println((a>b | a<b));   //或
+        System.out.println((a>b ^ a<b));   //非
+        
+    }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public static void main (String[] args){
+       
+        int c= 2;
+        
+        System.out.println(c<<32);//往左32位元
+         System.out.print(c<< 38);//往左38位元
+          System.out.print(c<<49);//往左49位元
+  }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+import java.util.*;
+public class Second {
+    public static void main (String[] args){
+            
+       String test;
+       Scanner scanner=new Scanner(System.in);
+         test =scanner.next();
+       int d=Integer.parseInt(test);
+        if(d % 2== 0){
+            System.out.print("是偶數");
+        }else if(d%2!= 0){
+            System.out.print("是奇數");
+        }
+}
