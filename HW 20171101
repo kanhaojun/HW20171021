@@ -34,4 +34,9 @@ public class Second {
         }else if(d%2!= 0){
             System.out.print("是奇數");
         }
+        
 }
+講義
+https://drive.google.com/drive/folders/0B7ZLSFLX9lVXM0w5NzJfamN4Y3M
+題目
+https://drive.google.com/drive/folders/0B7ZLSFLX9lVXTU04Z1JxSmJCUG8
