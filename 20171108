@@ -1,0 +1,53 @@
+撰寫一個程式,取得使用者的兩個 int 整數輸入,並顯示兩數相加的結果。
+import java.util.Scanner;
+public class Third {
+    public static void main (String[] argv){  
+      Scanner sc=new Scanner(System.in);
+      sc =new Scanner(System.in);   
+          int er =sc.nextInt();
+          int or =sc.nextInt();
+          System.out.println((er+or));
+    }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+改寫 SayHello 程式,以 Scanner 取得輸入的姓名,在螢幕上顯示 XXX 你
+好!。
+import java.util.Scanner;
+public class Third {
+    public static void main (String[] argv){
+        Scanner sc=new Scanner(System.in);
+        String pr =sc.nextLine();
+        String tr =sc.nextLine();
+        String ur =sc.nextLine();
+        
+        
+        System.out.println("名字:"+pr+"密碼:"+tr+"你好!"+ur);
+            }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+寫一程式,判斷輸入的整數是否為 3 和 2 的倍數。
+import java.util.Scanner;
+public class Third {
+    public static void main (String[] argv){
+        Scanner sc= new Scanner(System.in);
+        sc =new Scanner(System.in);
+        int ar =sc.nextInt();             1.取得使用者整數輸入
+        int br =0;
+        int cr =0;
+
+        if( ar%2==0){                     2.用餘數判斷是否為2的倍數
+             br = ar;
+            System.out.println(br);
+        }
+        if(ar%3==0){                      3.用餘數判斷是否為3的倍數
+            cr = ar;
+            System.out.println(cr);
+        }
+        if( br==cr){                      4.輸出結果判斷是否為2和3的倍數
+            System.out.println("true");
+        }
+            else {
+                System.out.println("false");
+                    }
+        }
+  }
