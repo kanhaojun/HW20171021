@@ -47,7 +47,7 @@ public class Third {
             System.out.println("是2和3的倍數");
         }
             else {
-                System.out.println("不是2和3的倍數");
+                System.out.println("不是2和3共同的倍數");
                     }
         }
   }
