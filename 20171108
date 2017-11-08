@@ -35,19 +35,19 @@ public class Third {
         int br =0;
         int cr =0;
 
-        if( ar%2==0){                     2.用餘數判斷是否為2的倍數
+        if(ar%2==0){                      2.用餘數判斷是否為2的倍數
              br = ar;
-            System.out.println(br);
+            System.out.println("是2的倍數");
         }
         if(ar%3==0){                      3.用餘數判斷是否為3的倍數
             cr = ar;
-            System.out.println(cr);
+            System.out.println("是3的倍數");
         }
         if( br==cr){                      4.輸出結果判斷是否為2和3的倍數
-            System.out.println("true");
+            System.out.println("是2和3的倍數");
         }
             else {
-                System.out.println("false");
+                System.out.println("不是2和3的倍數");
                     }
         }
   }
