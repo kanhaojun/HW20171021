@@ -51,3 +51,56 @@ public class Third {
                     }
         }
   }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+某百貨公司舉行週年慶,給消費者的折扣為:購物金額小於 2000 元打九折,購物金額滿 2000 元打八五折,滿 3000 元打八折,滿 5000 元打七折。請撰
+寫一程式,輸入一購物金額,輸出打折後的需付金額。
+import java.util.Scanner;
+public class Thirdhalftwo {
+    public static void main(String[] argv){
+        Scanner scanner =new Scanner(System.in);
+        int ru =scanner.nextInt();
+        if (ru< 2000){
+               System.out.print(ru*0.9);
+        }
+        if (ru>=2000){
+               System.out.print(ru*0.85);
+        }
+        if (ru>3000){
+               System.out.print(ru*0.8);
+        }
+        if (ru>5000){
+               System.out.print(ru*0.7);
+        }
+    }
+}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+請寫一個程式,算出每個月的天數
+import java.util.Scanner;
+public class Thirdhalftwo {
+    public static void main(String[] argv){
+        Scanner sc =new Scanner(System.in);
+        System.out.print("輸入月份");
+        int mon =sc.nextInt();
+        int doc =mon;
+        
+        switch(doc){
+            case 12:
+            case 10:
+            case  8:
+            case  7:
+            case  5:
+            case  3:
+            case  1:
+                System.out.print("31 days");
+                break;
+            case 11:
+            case  9:
+            case  6:
+            case  4:           
+                System.out.print("30 days");
+                break;
+            default:
+                System.out.print("29 days or 28 days");
+        }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+寫一程式,讓使用者輸入字元 R、L、U、D,分別顯示”向右走” 、”向左走” 、”向上走” 、”向下走” 。
